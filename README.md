@@ -5,10 +5,9 @@ A quick little Prolog AI that finds any possible paths through a set of connecti
 
 For example, the following prolog session demonstrates a sample use:
 
-1) Load info.pl
-?- [info].
-    => Success, compiled info.pl in 0 seconds.
-?- [maze].
-    => Success, compiled maze.pl in 0 seconds.
-?- path([1,3,7,8], [1,2,out,16,3,7,6,out,10,8]).
-    => true.
+    ?- [info].
+        => Success, compiled info.pl in 0 seconds.
+    ?- [maze].
+        => Success, compiled maze.pl in 0 seconds.
+    ?- path([1,3,7,8], [1,2,out,16,3,7,6,out,10,8]).
+        => true.
