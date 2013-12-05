@@ -1,22 +1,3 @@
-directly_connected(1, out).
-directly_connected(2, out).
-directly_connected(4, out).
-directly_connected(5, out).
-directly_connected(6, out).
-directly_connected(7, out).
-directly_connected(1,2).
-directly_connected(1,3).
-directly_connected(1,4).
-directly_connected(2,3).
-directly_connected(2,4).
-directly_connected(3,4).
-directly_connected(3,7).
-directly_connected(3,6).
-directly_connected(3,5).
-directly_connected(5,6).
-directly_connected(5,7).
-directly_connected(6,7).  
-
 connected(A, B, [Next]) :-
   directly_connected(A,B),
   Next = B.
